@@ -37,6 +37,6 @@
 #define VIM_VERSION_SHORT	"8.1"
 #define VIM_VERSION_MEDIUM	"8.1"
 #define VIM_VERSION_LONG	"VIM - Vi IMproved 8.1 (2018 May 18)"
-#define VIM_VERSION_LONG_DATE	"VIM - Vi IMproved 8.1 (2018 May 18, compiled "
-#define VIM_VERSION_LONG_ONLY	"VIM - Vi IMproved 8.1"
+#define VIM_VERSION_LONG_DATE	"myVIM - Vi IMproved 8.1 modify by wangwei (2018 May 18), compiled "
+#define VIM_VERSION_LONG_ONLY	"myVIM - Vi IMproved 8.1"
 #define VIM_VERSION_DATE_ONLY	"2018 May 18"
