@@ -1,1 +1,4 @@
 记录的是在学习这个vim源代码过程中的点点滴滴的收获
+
+修改点
+１.将vim --version中的显示行数增加   修改src/version.c   ncol = 11;
