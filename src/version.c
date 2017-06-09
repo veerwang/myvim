@@ -2572,7 +2572,10 @@ list_in_columns(char_u **items, int size, int current)
 
     /* The rightmost column doesn't need a separator.
      * Sacrifice it to fit in one more column if possible. */
-    ncol = (int) (Columns + 1) / width;
+    // wwei modify 06/09/2017 start
+    //ncol = (int) (Columns + 1) / width;
+    ncol = 11; 
+    // wwei modify 06/09/2017 end 
     nrow = item_count / ncol + (item_count % ncol ? 1 : 0);
 
     /* i counts columns then rows.  idx counts rows then columns. */
