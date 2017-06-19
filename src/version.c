@@ -2928,6 +2928,7 @@ intro_message(
 	" ",
 #endif
 	N_("Vim is open source and freely distributable"),
+	N_("Private version modified by WangWei"),
 	"",
 	N_("Help poor children in Uganda!"),
 	N_("type  :help iccf<Enter>       for information "),
